@@ -1,0 +1,4 @@
+com/richie/Customer.java
+ com.richie.Customer
+com/richie/A.java
+ com.richie.A
