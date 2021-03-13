@@ -3,14 +3,15 @@ package com.richie;
 public class Customer {
 
     public static void main(String[] args) {
-        Customer[] customers = {
-                new Customer(id:"0013", price:490, discount:0, total:490),
-                new Customer(id:"0052", price:1000, discount:100, total:900),
-                new Customer(id:"0081", price:290, discount:0, total:290),
-                new Customer(id:"2122", price:2000, discount:200, total:1800),
-};
-        for (int i = 0; i < Customer.length; i++) {
-            customers[i].print();
-        System.out.println(customers);
+        A[] As = {
+                new A("0013", 490, 0, 490),
+                new A("0052", 1000, 100, 900),
+                new A("0081", 290, 0, 290),
+                new A("2122", 2000, 200, 1800),
+        };
+        for (int i = 0; i < As.length; i++) {
+            As[i].print();
+            System.out.println(As);
+        }
     }
 }
