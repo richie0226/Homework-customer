@@ -11,7 +11,6 @@ public class Customer {
         };
         for (int i = 0; i < As.length; i++) {
             As[i].print();
-            System.out.println(As);
         }
     }
 }
